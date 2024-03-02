@@ -63,14 +63,13 @@ header {
 
 /* section hero */
 .hero {
-  margin-top: 50px;
+  margin-top: 40px;
   height: 100%;
   width: 100%;
   min-width: 100vh;
   position: relative;
   display: flex;
-  /* align-items: center; */
-  padding: 60px 10%;
+  padding: 70px 10%;
 }
 
 .hero_text h5 {
@@ -117,8 +116,15 @@ header {
   transition: all 0.55s ease;
 }
 
-.ctaa {
+.hero_text a.ctaa {
+  background: transparent;
+  border: 1px solid white;
   margin-left: 10px;
+}
+
+.hero_text a.ctaa i {
+  vertical-align: middle;
+  margin-right: 5px;
 }
 
 .hero_text a:hover {
@@ -127,5 +133,22 @@ header {
   transform: translate(8px);
 }
 
-.hero_img img {
+/* .hero_img img {
+  width: 700px;
+  height: auto;
+} */
+
+.icons {
+  position: absolute;
+  top: 40%;
+  padding: 0 9%;
+  transform: translate(-20%);
+}
+
+.icons i {
+  display: block;
+  margin: 26px 0;
+  font-size: 24px;
+  color: white;
+  transition: all 0.5s ease;
 }
