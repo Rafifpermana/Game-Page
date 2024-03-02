@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:wght@100..900&family=Madimi+One&family=Permanent+Marker&family=Poppins:ital,wght@0,200;0,400;1,100&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background: linear-gradient(
+    245.59deg,
+    #4d9559 0%,
+    #38703d 28.53%,
+    #133917 75.52%
+  );
+}
+
+header {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 100px;
+  background: transparent;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar a {
+  color: white;
+  margin-left: 60px;
+  font-size: 15px;
+  font-weight: 600;
+  transition: all 0.55s ease;
+}
+
+.navbar a:hover {
+  border-bottom: 2px solid white;
+}
+
+#menu-icon {
+  color: white;
+  font-size: 35px;
+  z-index: 10001;
+  cursor: pointer;
+  display: none;
+}
+
+/* section hero */
+.hero {
+  margin-top: 50px;
+  height: 100%;
+  width: 100%;
+  min-width: 100vh;
+  position: relative;
+  display: flex;
+  /* align-items: center; */
+  padding: 60px 10%;
+}
+
+.hero_text h5 {
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  margin-top: 10%;
+  margin-bottom: 40px;
+}
+
+.hero_text h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.hero_text h1 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 90px;
+  line-height: 1;
+  color: white;
+  margin: 0 0 45px;
+}
+
+.hero_text p {
+  color: white;
+  font-size: 15px;
+  line-height: 1.9;
+  margin-bottom: 40px;
+}
+
+.hero_text a {
+  display: inline-block;
+  color: white;
+  background: #4d9559;
+  border: 1px solid transparent;
+  padding: 15px 20px;
+  line-height: 1.4;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 30px;
+  text-transform: uppercase;
+  transition: all 0.55s ease;
+}
+
+.ctaa {
+  margin-left: 10px;
+}
+
+.hero_text a:hover {
+  background-color: transparent;
+  border: 1px solid white;
+  transform: translate(8px);
+}
+
+.hero_img img {
+}
